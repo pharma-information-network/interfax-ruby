@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/interfax/interfax-ruby'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency('mimemagic', '~>0.3.1')
+  s.add_runtime_dependency('mimemagic', '~>0.4.3')
 
   s.add_development_dependency('rake')
   s.add_development_dependency('fakefs')

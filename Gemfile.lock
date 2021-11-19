@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     interfax (1.2.0)
-      mimemagic (~> 0.3.1)
+      mimemagic (~> 0.4.3)
 
 GEM
   remote: https://rubygems.org/
@@ -13,9 +13,16 @@ GEM
       safe_yaml (~> 1.0.0)
     fakefs (0.13.0)
     hashdiff (0.3.7)
-    mimemagic (0.3.2)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
+    mini_portile2 (2.6.1)
     minitest (5.11.1)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
     public_suffix (3.0.1)
+    racc (1.6.0)
     rake (12.3.0)
     safe_yaml (1.0.4)
     webmock (3.2.1)
